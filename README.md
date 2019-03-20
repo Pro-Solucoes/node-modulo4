@@ -27,3 +27,35 @@ adonis serve --dev
 npm install -D eslint
 npx eslint --init
 ```
+
+### Iniciar o banco de dados
+
+```
+adonis migration:run
+```
+
+### Criação do controller
+
+```
+adonis make:controller User
+```
+
+### Listar todas as rotas
+
+```
+adonis route:list
+```
+
+### Rollback nas migrations
+
+```
+adonis migration:rollback
+```
+
+### Instalando modulo de e-mail
+
+```
+1 - adonis install @adonisjs/mail
+2 - @adonisjs/mail/providers/MailProvider ( Adicionar nos providers)
+
+```
