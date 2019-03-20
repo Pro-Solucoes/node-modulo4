@@ -18,11 +18,36 @@ adonis new yardstick --api-only
 
 or manually clone the repo and then run `npm install`.
 
-
 ### Migrations
 
 Run the following command to run startup migrations.
 
 ```js
 adonis migration:run
+```
+
+### Instalando adonis
+
+```
+npm install -g @adonisjs/cli
+```
+
+### Criar a api
+
+```
+adonis new -h
+adonis new (nome da api) --api-only
+```
+
+### Iniciar o servidor
+
+```
+adonis serve --dev
+```
+
+### Instalando o eslint
+
+```
+npm install -D eslint
+npx eslint --init
 ```
